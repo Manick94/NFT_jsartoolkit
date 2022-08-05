@@ -93,7 +93,7 @@ function start(marker, video, input_width, input_height, canvas_draw, render_upd
     /* Load GLTF Model */
     var threeGLTFLoader = new THREE.GLTFLoader();
 
-    threeGLTFLoader.load("../Data/models/AR800v2.glb", function (gltf) {
+    threeGLTFLoader.load("./Data/models/AR800v2.glb", function (gltf) {
             model = gltf.scene.children[0];
             model.position.z = 0;
             model.position.x = 100;
