@@ -133,7 +133,7 @@ function start(marker, video, input_width, input_height, canvas_draw, render_upd
 
         renderer.setSize(sw, sh);
 
-        worker = new Worker("../../js/artoolkit.worker.js");
+        worker = new Worker("../js/artoolkitNFT.worker.js");
 
         worker.postMessage({
             type: "load",
