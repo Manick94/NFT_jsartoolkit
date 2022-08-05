@@ -1,4 +1,3 @@
-import * as THREE from 'three';
 var model;
 var clock = new THREE.Clock();
 var mixers = [];
